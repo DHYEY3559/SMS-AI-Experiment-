@@ -1,0 +1,119 @@
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI> & "c:/Users/dhyey/OneDrive/Desktop/SMS AI/.venv/Scripts/python.exe" "c:/Users/dhyey/OneDrive/Desktop/SMS AI/main.py" 
+ * Serving Flask app 'main'
+ * Serving Flask app 'main'
+ * Debug mode: off
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+Press CTRL+C to quit
+Press CTRL+C to quit
+[ACCEPTED] +919054770736
+[ASK] +919054770736: what is water
+[ASK] +919054770736: what is water
+[REPLY] Water is a transparent, tasteless, odorless liquid essential for life. It's H₂O, covering 71% of Ear
+":1}}
+192.168.1.4 - - [28/Jun/2025 14:45:09] "POST /sms-webhook HTTP/1.1" 200 -
+[ACCEPTED] +919054770736
+[ASK] +919054770736: who is prime minister of india
+[REPLY] Narendra Modi is prime minister of India.
+[FORWARDED] Status: 201, Response: {"data":{"success":true,"message":"SMS added to queue for processing","smsBatchId":"685fb325271d0745806a37ff","recipientCount":1}}
+192.168.1.4 - - [28/Jun/2025 14:47:25] "POST /sms-webhook HTTP/1.1" 200 -
+[ACCEPTED] +919898090220
+[ASK] +919898090220: who is prime minister of india
+[REPLY] Narendra Modi.
+[FORWARDED] Status: 201, Response: {"data":{"success":true,"message":"SMS added to queue for processing","smsBatchId":"685fb394271d0745806a4066","recipientCount":1}}
+192.168.1.4 - - [28/Jun/2025 14:49:16] "POST /sms-webhook HTTP/1.1" 200 -
+[ACCEPTED] +919898422655
+[ASK] +919898422655: what is drilling machine
+[REPLY] Tool for making round holes. Uses rotating motion.
+[FORWARDED] Status: 201, Response: {"data":{"success":true,"message":"SMS added to queue for processing","smsBatchId":"685fb419271d0745806a4c16","recipientCount":1}}
+192.168.1.4 - - [28/Jun/2025 14:51:28] "POST /sms-webhook HTTP/1.1" 200 -
+[ACCEPTED] +919898422655
+[2025-06-28 14:52:14,933] ERROR in app: Exception on /sms-webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\dhyey\OneDrive\Desktop\SMS AI\main.py", line 58, in sms_webhook
+  File "c:\Users\dhyey\OneDrive\Desktop\SMS AI\main.py", line 58, in sms_webhook
+    prompt = message.split("dhyey:", 1)[1].strip()
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+192.168.1.4 - - [28/Jun/2025 14:52:14] "POST /sms-webhook HTTP/1.1" 500 -
+[ACCEPTED] +919898422655
+[ASK] +919898422655: what is Sunday
+[FORWARDED] Status: 201, Response: {"data":{"success":true,"message":"SMS added to queue for processing","smsBatchId":"685fb473271d0745806a5643","recipientCount":1}}
+192.168.1.4 - - [28/Jun/2025 14:52:58] "POST /sms-webhook HTTP/1.1" 200 -
+[ACCEPTED] +919054770736
+[ASK] +919054770736: what is ai
+[REPLY] AI is technology mimicking human intelligence, like learning and problem-solving.
+[FORWARDED] Status: 201, Response: {"data":{"success":true,"message":"SMS added to queue for processing","smsBatchId":"685fb5d5271d0745806a635a","recipientCount":1}}
+192.168.1.4 - - [28/Jun/2025 14:58:53] "POST /sms-webhook HTTP/1.1" 200 -
+[ACCEPTED] +919898422655
+[ASK] +919898422655: what is ai
+[ERROR] 'choices'
+192.168.1.4 - - [28/Jun/2025 15:02:17] "POST /sms-webhook HTTP/1.1" 500 -
+
+ *  History restored 
+
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>                                                                                                     PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+ *  History restored 
+
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI> & "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Scripts\Activate.ps1"
+(.venv) PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI> & "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Scripts\Activate.ps1"
+(.venv) PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+
+
+
+
+
+
+
+
+
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI> & "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Scripts\Activate.ps1"
+(.venv) PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+
+
+
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI> & "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Scripts\Activate.ps1"
+(.venv) PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI> & "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Scripts\Activate.ps1"
+PS C:\Users\dhyey\OneDrive\Desktop\SMS AI> & "C:\Users\dhyey\OneDrive\Desktop\SMS AI\.venv\Scripts\Activate.ps1"
+(.venv) PS C:\Users\dhyey\OneDrive\Desktop\SMS AI>
+
+
